@@ -4,7 +4,7 @@ import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as apigw from "aws-cdk-lib/aws-apigateway"
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs"
 
-export class LambdaRustStack extends cdk.Stack {
+export class LambdaTsStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
